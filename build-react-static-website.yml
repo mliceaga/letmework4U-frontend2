@@ -14,7 +14,7 @@ steps:
 - script: |
   cd src
   yarn 
-  displayName: 'Installing node modules'
+displayName: 'Installing node modules'
 
 - script: |
     yarn build
