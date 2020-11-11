@@ -12,9 +12,9 @@ pool:
 #  Build steps for the pipeline
 steps:
 - script: |
-  cd src
-  yarn 
-displayName: 'Installing node modules'
+    cd src
+    yarn 
+  displayName: 'Installing node modules'
 
 - script: |
     yarn build
